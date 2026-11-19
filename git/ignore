@@ -1,0 +1,16 @@
+# Global gitignore (linked to ~/.config/git/ignore)
+
+# Claude Code local settings
+**/.claude/settings.local.json
+
+# no-mistakes validation evidence
+.no-mistakes/
+
+# Secrets and local overrides
+.env
+.env.*
+!.env.example
+*.local
+
+# macOS
+.DS_Store
