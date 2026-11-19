@@ -16,3 +16,4 @@ unset __conda_setup
 alias gs="git status"
 
 
+export PATH="$HOME/.local/bin:$PATH"
